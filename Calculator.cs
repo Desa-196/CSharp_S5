@@ -53,6 +53,28 @@ namespace Lesson_005_Delegate
         {
              Result += numder;
         }
-        
+
+//Перегрузки методов для типа int
+
+        public void Divide(int numder)
+        {
+            Result /= numder;
+        }
+
+        public void Multiply(int numder)
+        {
+            Result *= numder;
+        }
+
+        public void Substract(int numder)
+        {
+            Result -= numder;
+        }
+
+        public void Sum(int numder)
+        {
+            Result += numder;
+        }
+
     }
 }
